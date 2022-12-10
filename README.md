@@ -7,7 +7,7 @@ The program has two main parts; the *Client* which employs a *Sequential* proces
 Concurrent access to same file during writing could cause a race condition where the value or content would be different anytime the program is run. Python 3 which was used here in the program handles well race condition instances without having to apply lock/release of a shared resource. In that case, no race conditions were observed here. By observing the output file size (8.1mb) after multiple separate runs, it was always equal to the total size of the 10 files combined (8.1mb) hence there was no loss or addition of data.
 
 ## Instrumentation and Tracing
-The invokation of any function was traced using Opentelemetry API and SDK. Manual instrumentation was done and the trace data was exported to Jaeger for analysis. The result is as show in the image below:
+The invokation of any function was traced using Opentelemetry API and SDK. Manual instrumentation was done and the trace data was exported to  [Jaeger](https://www.jaegertracing.io/docs/1.18/) for analysis. Jaeger was set up locally in a [Docker container](https://docs.docker.com/get-started/) . The result is as show in the image below:
 
 [![Graph of Traces](https://frimps-astro.github.io/assets/images/jaeger_results.png)](https://frimps-astro.github.io/assets/images/jaeger_results.png)
 *click on image to open fully*
@@ -30,3 +30,5 @@ In the `logs.txt` file, it is observed from the Client logs that the client read
 ***Name***: `Clement Frimpong Osei`
 
 ***ID***: `7274715`
+
+***Link to Repository***: [Assignment Repository](https://github.com/frimps-astro/frimps-astro.github.io)
