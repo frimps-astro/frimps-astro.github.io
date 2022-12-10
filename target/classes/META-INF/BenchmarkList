@@ -1,0 +1,9 @@
+JMH S 27 org.assignment.benchmarking S 65 org.assignment.jmh_generated.benchmarking_HashsetContains_jmhTest S 15 HashsetContains S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 
+JMH S 27 org.assignment.benchmarking S 61 org.assignment.jmh_generated.benchmarking_HashsetSort_jmhTest S 11 HashsetSort S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 
+JMH S 27 org.assignment.benchmarking S 71 org.assignment.jmh_generated.benchmarking_LinkedHashsetContains_jmhTest S 21 LinkedHashsetContains S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 
+JMH S 27 org.assignment.benchmarking S 67 org.assignment.jmh_generated.benchmarking_LinkedHashsetSort_jmhTest S 17 LinkedHashsetSort S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 
+JMH S 27 org.assignment.benchmarking S 65 org.assignment.jmh_generated.benchmarking_TreesetContains_jmhTest S 15 TreesetContains S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 
+JMH S 27 org.assignment.benchmarking S 61 org.assignment.jmh_generated.benchmarking_TreesetSort_jmhTest S 11 TreesetSort S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 
+JMH S 27 org.assignment.benchmarking S 67 org.assignment.jmh_generated.benchmarking_insertIntoHashset_jmhTest S 17 insertIntoHashset S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 
+JMH S 27 org.assignment.benchmarking S 73 org.assignment.jmh_generated.benchmarking_insertIntoLinkedHashset_jmhTest S 23 insertIntoLinkedHashset S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 
+JMH S 27 org.assignment.benchmarking S 67 org.assignment.jmh_generated.benchmarking_insertIntoTreeset_jmhTest S 17 insertIntoTreeset S 3 All E A 1 1 1 E I 1 2 E E I 2 10 E E I 1 1 I 1 1 E E E E E U 7 SECONDS E E 

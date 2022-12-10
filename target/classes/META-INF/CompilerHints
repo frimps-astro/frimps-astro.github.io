@@ -1,0 +1,14 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,org/assignment/benchmarking.HashsetContains
+inline,org/assignment/benchmarking.HashsetSort
+inline,org/assignment/benchmarking.LinkedHashsetContains
+inline,org/assignment/benchmarking.LinkedHashsetSort
+inline,org/assignment/benchmarking.TreesetContains
+inline,org/assignment/benchmarking.TreesetSort
+inline,org/assignment/benchmarking.insertIntoHashset
+inline,org/assignment/benchmarking.insertIntoLinkedHashset
+inline,org/assignment/benchmarking.insertIntoTreeset
