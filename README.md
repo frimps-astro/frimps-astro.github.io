@@ -25,3 +25,8 @@ Refactoring most task intensive parts  of the program like reading files from di
 
 ### Log File - logs.txt
 In the `logs.txt` file, it is observed from the Client logs that the client read and sent data to the server in an orderly manner: reading file 1, completed reading file 1; reading file 2, completed reading file 2. This means that a task needed to be operated before the next because the same thread was used for all tasks. But for the Server logs intercepted each other because each write task had a dedicated thread on which it executed.
+
+### Student Details
+***Name***: `Clement Frimpong Osei`
+
+***ID***: `7274715`
