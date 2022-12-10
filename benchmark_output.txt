@@ -1,0 +1,46 @@
+//OVERALL BENCHMARKS
+Benchmark                                                  Mode      Cnt         Score         Error  Units
+LinkedHashsetContains                                     thrpt       10  47261893.501 ± 1698935.967  ops/s
+HashsetContains                                           thrpt       10  47301736.005 ±  391691.559  ops/s
+TreesetContains                                           thrpt       10  43910040.127 ±  186765.687  ops/s
+
+LinkedHashsetSort                                         thrpt       10  21117581.974 ±  135831.857  ops/s
+HashsetSort                                               thrpt       10  19837891.449 ± 1196480.082  ops/s
+TreesetSort                                               thrpt       10  20360220.989 ±  203441.692  ops/s
+
+insertIntoLinkedHashset                                   thrpt       10         1.299 ±       0.113  ops/s
+insertIntoHashset                                         thrpt       10         1.338 ±       0.110  ops/s
+insertIntoTreeset                                         thrpt       10         0.336 ±       0.017  ops/s
+
+LinkedHashsetContains                                      avgt       10        ≈ 10⁻⁷                 s/op
+HashsetContains                                            avgt       10        ≈ 10⁻⁸                 s/op
+TreesetContains                                            avgt       10        ≈ 10⁻⁸                 s/op
+
+LinkedHashsetSort                                          avgt       10        ≈ 10⁻⁷                 s/op
+HashsetSort                                                avgt       10        ≈ 10⁻⁷                 s/op
+TreesetSort                                                avgt       10        ≈ 10⁻⁷                 s/op
+
+insertIntoLinkedHashset                                    avgt       10         0.894 ±       0.090   s/op
+insertIntoHashset                                          avgt       10         0.861 ±       0.072   s/op
+insertIntoTreeset                                          avgt       10         3.553 ±       0.280   s/op
+
+
+HashsetContains:HashsetContains·p1.00                    sample                  0.002                 s/op
+HashsetSort:HashsetSort·p1.00                            sample                  0.006                 s/op
+LinkedHashsetContains:LinkedHashsetContains·p1.00        sample                  0.003                 s/op
+LinkedHashsetSort:LinkedHashsetSort·p1.00                sample                  0.003                 s/op
+TreesetSort:TreesetSort·p1.00                            sample                  0.035                 s/op
+
+insertIntoHashset:insertIntoHashset·p1.00                sample                  1.978                 s/op
+insertIntoLinkedHashset:insertIntoLinkedHashset·p1.00    sample                  1.468                 s/op
+insertIntoTreeset:insertIntoTreeset·p1.00                sample                  3.750                 s/op
+HashsetContains                                              ss       10        ≈ 10⁻⁵                 s/op
+HashsetSort                                                  ss       10        ≈ 10⁻⁴                 s/op
+LinkedHashsetContains                                        ss       10        ≈ 10⁻⁵                 s/op
+LinkedHashsetSort                                            ss       10        ≈ 10⁻⁴                 s/op
+TreesetContains                                              ss       10        ≈ 10⁻⁵                 s/op
+TreesetSort                                                  ss       10        ≈ 10⁻⁵                 s/op
+insertIntoHashset                                            ss       10         1.641 ±       0.996   s/op
+insertIntoLinkedHashset                                      ss       10         1.172 ±       0.910   s/op
+insertIntoTreeset                                            ss       10         3.234 ±       0.331   s/op
+
