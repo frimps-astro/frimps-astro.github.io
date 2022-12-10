@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Benchmarking Analysis
-permalink: https://frimps-astro.github.io/assignment/benchmarking
+permalink: /assignment/benchmarking
 ---
 # Benchmarking Discussion
 The benchmarking environment was as follows:
