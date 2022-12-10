@@ -1,1 +1,1 @@
-# frimps-astro.github.io
+# Discussion of Question
