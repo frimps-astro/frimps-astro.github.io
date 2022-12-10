@@ -24,15 +24,18 @@ class FileWriterServer:
    #write received data to a file
    def writeToLocalFile(data:list, fileNumber):
       
+      #open to write
       writer = open("output.txt", "w")
       
       logging.info("Server: calling the writer service on data of file {} to local".format(fileNumber))
 
+      #loop through data and write each line
       for line in data:
          writer.write(line)
       
       logging.info("Server: done writing data of file {} to local".format(fileNumber))
       
+      #close I/O to prevent memory leaks
       writer.close()
       
    def receiver(clientData:dict):
