@@ -3,7 +3,9 @@ layout: default
 title: Benchmarking Analysis
 permalink: /assignment/benchmarking
 ---
-# Benchmarking Discussion
+## [Opentelemetry & Tracing Discussions](https://frimps-astro.github.io)
+
+## Benchmarking Discussion
 The benchmarking environment was as follows:
 ```
 Java version: openjdk 19
@@ -21,7 +23,7 @@ The order of execution of benchmarked methods was based on the methods names in 
 
 ## Results Analysis
 The time unit used for the benchmarking was `seconds` and all methods were executed in `10 iterations`
-- ### **INSERT**
+ ### **INSERT**
 
 | Datastructure        | Throughput           | Average Speed  |
 | ------------- |:-------------:| -----:|
@@ -37,7 +39,7 @@ LinkedHashset maintains a linkedlist to internally maintain the insertion order 
 
 Treeset sorts its items after evertyhing insertion operation hence a greater overhead reducing its throughput and average speed.
 
-- ### **SEARCH - CONTAINS**
+ ### **SEARCH - CONTAINS**
 
 | Datastructure        | Throughput(ops/s)           | Average Speed(s/op)  |
 | ------------- |:-------------:| -----:|
@@ -51,7 +53,7 @@ An item could be located anywhere in a hashset when they are not ordered hence s
 
 LinkedHashset takes relatively longer time compared to the hashset but has greater throughput than the Treeset because its elements maintain an insertion order where as a Treeset needs to traverse through all elements in the case when an item being searched for is deep down the tree.
 
-- ### **SORT**
+ ### **SORT**
 
 | Datastructure        | Throughput           | Average Speed  |
 | ------------- |:-------------:| -----:|
@@ -62,7 +64,7 @@ LinkedHashset takes relatively longer time compared to the hashset but has great
 
 ***Analysis:***
 
-Hashset has a less throughput for sorting due to the fact that it has its items randomly disbruted.
+Hashset has a less throughput for sorting due to the fact that it has its items randomly distributed.
 
 LinkedHashset has a greater throughput because its items are linked to each other hence easily to sort.
 
