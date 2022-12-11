@@ -35,3 +35,5 @@ In the `logs.txt` file, it is observed from the Client logs that the client read
 ***ID***: `7274715`
 
 ***Link to Repository***: [Assignment Repository](https://github.com/frimps-astro/frimps-astro.github.io)
+
+## [Benchmark Discussions](https://frimps-astro.github.io/assignment/benchmarking)
