@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: page
 title: Benchmarking Analysis
 permalink: /assignment/benchmarking
---- -->
+---
 # Benchmarking Discussion
 The benchmarking environment was as follows:
 ```
