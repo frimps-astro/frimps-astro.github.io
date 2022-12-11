@@ -1,4 +1,7 @@
-# Discussion of Question
+
+## [Benchmark Discussions](https://frimps-astro.github.io/assignment/benchmarking)
+
+## Opentelemetry & Tracing
 The program has two main parts; the *Client* which employs a *Sequential* processing of task and the *Server* side which employs *Parallelism* processing:
 - **Client - Sequential**: The client-side method that reads the files and send to the server does so in a sequential manner. Files are read individually, one after the other and once the reading is completed, the read data is converted to a list of strings and sent to the server and the next file is read. The whole process repeats until all files are read and sent to the server. It has two sequential parts, that is two for-loops.
 - **Server - Parallelism**: The server-side method function upon receiving data from the client-side creates a thread to process the writing of the data into a local file. The number of distinct data received determines the number of threads to be created. In this case, 10 data are recieved hence ten threads and each thread is discarded after it is done process. All threads are join together to complete their processing before the application exits. Each thread created, processes its data exclusive of other threads. All threads access the same local file where they write into which could have led to a race condition. 
