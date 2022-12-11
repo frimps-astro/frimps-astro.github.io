@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Benchmarking Analysis
 permalink: /assignment/benchmarking
 ---
