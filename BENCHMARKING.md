@@ -22,7 +22,9 @@ Architecture: 64bit
 The order of execution of benchmarked methods was based on the methods names in alphabetical order. The goal was to execute the insertion method first to have some data at hand for search and sort but I believe that was not the case per the execution order.
 
 ## Results Analysis
-The time unit used for the benchmarking was `seconds` and all methods were executed in `10 iterations`
+It was a passive benchmarking which took approximately an hour to complete. This involved about 5 warm ups and 10 sample runs for each benchmarked method. 1 million integers ranging between 0 and 10million were used.
+
+The time unit used for the benchmarking was `seconds` and all methods were executed in `10 iterations`. Results are prone to errors and in the `benchmark_output.txt` some records of margin error were recorded. I initially ran the insertion operation separately for both `throughput` and `average speed` a multiple times but that was not feasible per computational and processing limitation of my system. Hence, I could not proceed with running the benchmarks for other methods so I combined all benchmarks in one run which lasted about an hour.
  
 ### **INSERT**
 
@@ -72,9 +74,9 @@ LinkedHashset has a greater throughput because its items are linked to each othe
 Treeset does have a high throughput because it constantly maintains an order of its items. In cases where we need to sort in a particular order (ascending or descending), the list of items would only have to be reversed.
 
 ### Conclusion on Results
-From the results it is evident that the performance of these sets is in the order Hashet > LinkedHashset > Treeset.
+From the results it is evident that the performance of these sets is in the order Hashset > LinkedHashset > Treeset.
 
-But the choice for any of these datastructures depends on what the goal is: Hashset if you need no order of items, LinkedHashset if you want to maintain the order of insertion and Tree if you want items in a particular order.
+But the choice to use any of these datastructures depends on what the goal is: Hashset; if you need no order of items, LinkedHashset; if you want to maintain the order of insertion and Treeset if you want items in a particular order.
 
 In terms of memory requirement, Hashset requires less memory because it only uses a hashmap to store its items while a LinkedHashset uses hashmap and also maintains insertion order hence more memory required. Tree uses more memory than the other two because it uses the treemap and also an ordering comparator.
 
