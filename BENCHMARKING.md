@@ -11,7 +11,7 @@ The benchmarking environment was as follows:
 Java version: openjdk 19
 Benchmark version: openjdk jmh 1.35
 
-System Memory: 12gig
+System Memory: 12gig, 11.4g usable
 Cache: 256kb L1 and 2mb L2
 CPU: AMD Quadcore, 2.0gHz x2, 2.1gHz and 1.2gHz
 OS: Ubuntu, Linux
