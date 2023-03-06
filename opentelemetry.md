@@ -1,6 +1,7 @@
 ---
 layout: midnight
 title: Open Telemetry
+description: Manual instrumentation of program using Opentelemetry and uses Jaegur for Tracing
 permalink: /opentelemetry
 ---
 

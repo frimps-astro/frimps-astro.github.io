@@ -1,6 +1,7 @@
 ---
 layout: community_detection
 title: Community Detection by Fuzzy Relation
+description: Evaluating the Detection of Non-Overlapping Communities using the CDFR Algorithm
 permalink: /community-detection
 ---
 # Community Detection

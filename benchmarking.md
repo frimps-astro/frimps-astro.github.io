@@ -1,6 +1,7 @@
 ---
 layout: midnight
 title: Benchmarking Analysis
+description: Benchmarking a java program using the JMH
 permalink: /benchmarking
 ---
 ## [Opentelemetry & Tracing Discussions](https://frimps-astro.github.io/opentelemetry)
