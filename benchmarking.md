@@ -1,5 +1,5 @@
 ---
-layout: pages-themes/midnight@v0.2.0
+layout: midnight
 title: Benchmarking Analysis
 permalink: /benchmarking
 ---
