@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: midnight
 title: Open Telemetry
 permalink: /opentelemetry
 ---
