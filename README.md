@@ -83,8 +83,6 @@ In terms of memory requirement, Hashset requires less memory because it only use
 ### Student Details
 **Name**: `Clement Frimpong Osei`
 
-**ID**: `7274715`
-
 *Link to Repository*: [Assignment Repository](https://github.com/frimps-astro/frimps-astro.github.io/tree/benchmark)
 
 ## [Opentelemetry & Tracing Discussions](https://frimps-astro.github.io/opentelemetry)
