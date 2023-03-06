@@ -1,5 +1,11 @@
 
-## [Benchmark Discussions](https://frimps-astro.github.io/assignment/benchmarking)
+---
+# layout: default
+title: Open Telemetry
+permalink: /opentelemetry
+---
+
+## [Benchmark Discussions](https://frimps-astro.github.io/benchmarking)
 
 ## Opentelemetry & Tracing
 The program has two main parts; the *Client* which employs a *Sequential* processing of task and the *Server* side which employs *Parallelism* processing:
