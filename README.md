@@ -11,7 +11,8 @@ Description: This class is a graduate course which investigates knowledge repres
 Instructor: Professor Renata Dividino, Computer Science
 Institution: Brock University
 ```
-## [Community Detection](https://frimps-astro.github.io/community-detection)
+### Projects
+#### [Community Detection](https://frimps-astro.github.io/community-detection)
 
 
 ## COSC 5P07 Project Pages
@@ -27,8 +28,9 @@ Description: The study of concepts, techniques, and metrics in software performa
 Instructor: Professor Naser Ezzati-Jivan, Computer Science
 Institution: Brock University
 ```
-## [Benchmarking](https://frimps-astro.github.io/benchmarking)
-## [Opentelemetry](https://frimps-astro.github.io/opentelemetry)
+### Projects
+#### [Benchmarking](https://frimps-astro.github.io/benchmarking)
+#### [Opentelemetry](https://frimps-astro.github.io/opentelemetry)
 
 
 ### Student Details
