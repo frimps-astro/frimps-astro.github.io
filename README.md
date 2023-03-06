@@ -87,4 +87,4 @@ In terms of memory requirement, Hashset requires less memory because it only use
 
 *Link to Repository*: [Assignment Repository](https://github.com/frimps-astro/frimps-astro.github.io/tree/benchmark)
 
-## [Opentelemetry & Tracing Discussions](https://frimps-astro.github.io)
+## [Opentelemetry & Tracing Discussions](https://frimps-astro.github.io/opentelemetry)
