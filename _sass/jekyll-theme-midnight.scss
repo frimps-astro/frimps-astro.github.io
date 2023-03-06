@@ -272,6 +272,10 @@ section {
       &.right {
         float: right;
       }
+
+      &.center {
+        float: center;
+      }
     }
 
   }
@@ -294,6 +298,10 @@ section {
       .right {
         float: none;
         display: block;
+      }
+
+      &.center {
+        float: center;
       }
     }
   }
