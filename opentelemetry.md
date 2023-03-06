@@ -18,7 +18,7 @@ Concurrent access to the same file during writing could cause a race condition w
 The invocation of any function was traced using Opentelemetry API and SDK. Manual instrumentation was done, and the trace data was exported to  [Jaeger](https://www.jaegertracing.io/docs/1.18/) for analysis. Jaeger was set up locally in a [Docker container](https://docs.docker.com/get-started/). The result is as show in the image below:
 
 *click on image to open fully*
-[![Graph of Traces](https://frimps-astro.github.io/tree/opentelemetry/assets/images/jaeger_results.png)](https://frimps-astro.github.io/assets/images/jaeger_results.png)
+[![Graph of Traces](https://frimps-astro.github.io/tree/opentelemetry/assets/images/jaeger_results.png)](https://frimps-astro.github.io/tree/opentelemetry/assets/images/jaeger_results.png)
 
 ## Results Analysis
 From the results image above, the `client-read-span` is observed to have been called once which invoked the calling of the `server-write-span` 10 times. There were 11 spans in total hence but dept of trace was only two; first depth level being the client span and the 10 server spans have the same depth level.
