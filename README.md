@@ -1,4 +1,3 @@
-
 ---
 title: Open Telemetry
 permalink: /opentelemetry
