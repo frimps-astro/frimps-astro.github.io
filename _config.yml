@@ -2,5 +2,5 @@
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-title: COSC 5P07 - Opentelemetry
-description: Opentelemetry Instrumentation & Tracing discussions
+title: Frimpong Clement - Brock University
+description: Repository for course project pages
