@@ -1,5 +1,5 @@
 ---
-remote_theme: pages-themes/midnight@v0.2.0
+layout: pages-themes/midnight@v0.2.0
 title: Benchmarking Analysis
 permalink: /benchmarking
 ---
