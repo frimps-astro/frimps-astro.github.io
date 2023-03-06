@@ -1,5 +1,4 @@
 ---
-# layout: default
 title: Benchmarking Analysis
 permalink: /benchmarking
 ---
