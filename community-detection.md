@@ -8,7 +8,7 @@ Results of experiments on various datasets using the CDFR unrefined algorithm
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="Facebook 686: 5 Coms, Delta=0.4" src="https://frimps-astro.github.io/assets/images/communities/facebook_686_edges_delta_0.4.png">  Facebook 686: 5 Coms, Delta=0.4 | 
+|<img width="1604" alt="Facebook 686: 5 Coms, Delta=0.4" src="https://frimps-astro.github.io/assets/images/communities/facebook_686_delta_0.4.png">  Facebook 686: 5 Coms, Delta=0.4 | 
 |<img width="1604" alt="Facebook 414: 5 Coms, Delta=0.4" src="https://frimps-astro.github.io/assets/images/communities/facebook_414_edges_delta_0.4.png">  Facebook 414: 5 Coms, Delta=0.4 | 
 |<img width="1604" alt="Twitter: 7 Coms, Delta=0.93" src="https://frimps-astro.github.io/assets/images/communities/twitter_edges_delta_0.93.png">  Twitter: 7 Coms, Delta=0.93 | 
 |<img width="1604" alt="Twitter: 7 Coms, Delta=0.98" src="https://frimps-astro.github.io/assets/images/communities/twitter_edges_delta_0.98.png">  Twitter: 7 Coms, Delta=0.98 | 
