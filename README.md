@@ -1,6 +1,6 @@
 This is the homepage to other useful course project pages.
 
-## COSC 5P30 Project Pages
+# COSC 5P30
 Course Details:
 ```
 Code: COSC 5P30
@@ -11,11 +11,11 @@ Description: This class is a graduate course which investigates knowledge repres
 Instructor: Professor Renata Dividino, Computer Science
 Institution: Brock University
 ```
-### Projects
-#### [Community Detection](https://frimps-astro.github.io/community-detection)
+## Projects
+### [Community Detection](https://frimps-astro.github.io/community-detection)
 
 
-## COSC 5P07 Project Pages
+# COSC 5P07
 Course Details:
 ```
 Code: COSC 5P07
@@ -28,9 +28,9 @@ Description: The study of concepts, techniques, and metrics in software performa
 Instructor: Professor Naser Ezzati-Jivan, Computer Science
 Institution: Brock University
 ```
-### Projects
-#### [Benchmarking](https://frimps-astro.github.io/benchmarking)
-#### [Opentelemetry](https://frimps-astro.github.io/opentelemetry)
+## Projects
+### [Benchmarking](https://frimps-astro.github.io/benchmarking)
+### [Opentelemetry](https://frimps-astro.github.io/opentelemetry)
 
 
 ### Student Details
