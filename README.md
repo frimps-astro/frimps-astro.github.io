@@ -1,9 +1,9 @@
-<!-- ---
+---
 layout: default
 title: Benchmarking Analysis
-# permalink: /assignment/benchmarking
---- -->
-## [Opentelemetry & Tracing Discussions](https://frimps-astro.github.io)
+permalink: /benchmarking
+---
+## [Opentelemetry & Tracing Discussions](https://frimps-astro.github.io/opentelemetry)
 
 ## Benchmarking Discussion
 The benchmarking environment was as follows:
