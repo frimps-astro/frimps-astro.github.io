@@ -1,2 +1,4 @@
-assets/communities/*
-assets/decisions/*
+graphs/communities/*
+graphs/decisions/*
+.ipynb_checkpoints
+.vscode

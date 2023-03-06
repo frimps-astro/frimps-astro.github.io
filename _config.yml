@@ -1,6 +1,0 @@
-
-theme: jekyll-theme-midnight
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Frimpong Clement - Brock University
-description: Repository for course project pages
