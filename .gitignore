@@ -1,4 +1,4 @@
-graphs/communities/*
-graphs/decisions/*
+!graphs/communities/*
+!graphs/decisions/*
 .ipynb_checkpoints
 .vscode
