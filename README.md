@@ -196,6 +196,8 @@ Under `Constructing Decision Graphs`, run each dataset to construct its decision
 
 **NB:** The number of communities allowed to be visualized is limited to 20 i.e. the number of colors (used to identify various detected communities) available to the variable `community_to_color` under `Util Functions -> draw(G, refinedData, datasetName)`.
 
+**The resulting graphs of your experiment are saved under the directory `tests/`**
+
 ## Results
 The results of my experiment are saved to the directory `graphs/` in the repository. `communities/` contains recognized communities as I played with the delta values and `decisions/`.
 
