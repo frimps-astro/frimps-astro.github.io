@@ -165,7 +165,16 @@ The function `draw(G, refinedData, datasetName)` visualizes the constructed comm
 The function `decisionGraphs(G, datasetName)` takes a graph `G` and a `datasetName` and visualize a decision graph of the network.
 
 ## Datasets
-The network datasets used were the [Karate Club](https://networkx.org/documentation/stable/auto_examples/graph/plot_karate_club.html), [Football](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/football.gml), [US Politics Books](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/us_politics_books.gml), [Dolphins](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/dolphins.gml), Facebook with [414](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/facebook414.edges) and [686](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/facebook686.edges) edges, [Twitter](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/twitter.edges), and [Google Plus](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/googleplus.gml). All these can be found in the folder `datasets/`
+The network datasets used were:
+- [Karate Club](https://networkx.org/documentation/stable/auto_examples/graph/plot_karate_club.html)
+- [Football](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/football.gml)
+- [US Politics Books](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/us_politics_books.gml)
+- [Dolphins](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/dolphins.gml)
+- Facebook with [414](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/facebook414.edges) and [686](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/facebook686.edges) edges
+- [Twitter](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/twitter.edges)
+- [Google Plus](https://github.com/frimps-astro/frimps-astro.github.io/blob/community/datasets/googleplus.gml)
+
+All these datasets can be found in the directory `datasets/` in the repository.
 
 ## Environment
 The essential packages required to run the code are:
