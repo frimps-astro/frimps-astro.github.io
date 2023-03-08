@@ -196,10 +196,10 @@ Under `Constructing Decision Graphs`, run each dataset to construct its decision
 
 **NB:** The number of communities allowed to be visualized is limited to 20 i.e. the number of colors (used to identify various detected communities) available to the variable `community_to_color` under `Util Functions -> draw(G, refinedData, datasetName)`.
 
-**The resulting graphs of your experiment are saved under the directory `tests/`**
+**The resulting graphs of your experiments are saved under the directory `graphs/`**
 
 ## Results
-The results of my experiment are saved to the directory `graphs/` in the repository. `communities/` contains recognized communities as I played with the delta values and `decisions/`.
+The results of my experiment are saved to the directory `results/` in the repository. `communities/` contains recognized communities as I played with the delta values and `decisions/`.
 
 Visit <a href="https://frimps-astro.github.io/community-detection" target="_blank">Community Detection</a> to see a gallery of a few of the graph results from my experiments.
 
