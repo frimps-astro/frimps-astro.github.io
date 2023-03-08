@@ -190,7 +190,7 @@ Under `Constructing Decision Graphs`, run each dataset to construct its decision
 ## Results
 The results of my experiment are saved to the directory `graphs/` in the repository. `communities/` contains recognized communities as I played with the delta values and `decisions/`.
 
-Visit [Community Detection](https://frimps-astro.github.io/community-detection) to see a gallery of a few of the graph results from my experiments.
+Visit <a href="https://frimps-astro.github.io/community-detection" target="_blank">Community Detection</a> to see a gallery of a few of the graph results from my experiments.
 
 ## Course Information
 ```
