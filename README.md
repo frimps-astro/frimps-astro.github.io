@@ -1,5 +1,5 @@
 # Evaluating the Detection of Non-Overlapping Communities using the CDFR Algorithm
-This repository is an unofficial implementation of the CDFR Algorithm, a proposed algorithm in the research work [Community Detection by Fuzzy Relation](https://ieeexplore.ieee.org/abstract/document/8031356)</br>
+This repository is an unofficial implementation of the CDFR Algorithm, a proposed algorithm in the research work [Community Detection by Fuzzy Relations](https://ieeexplore.ieee.org/abstract/document/8031356)</br>
 It is a project work to implement the algorithm for the purpose of replication of the experiments for evaluation purposes.
 
 
