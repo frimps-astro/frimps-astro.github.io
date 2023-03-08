@@ -44,10 +44,11 @@ The function `centralityOfNodes(G)` and `neighborNodesDegree(G, U)` computes `ce
 
 ```
 `fuzzyPath`: This is a term I have come up for an important parameter required for finding the fuzzy relation. The fuzzy relation is defined as:
-    $$ R(V, NGC(V)) = \max_{p\epsilon{P}}\{ \mu_p(N_1, N_k) \} $$
+
+$$ R(V, NGC(V)) = \max_{p\epsilon{P}}\{ \mu_p(N_1, N_k) \} $$
 
 where $\mu_p(N_1, N_k)$ represents the `fuzzyPath`, `P` is all paths that lead from a node `V` to `NGC(V)`, `p` is a path in the set of paths, and ${N_i}$ is a node in the path. `fuzzyPath` is defined by the formula:
-    $$ \mu_p(N_1, N_k) = \frac{1 + |\Gamma(N_i) \cap\Gamma(N_{i+1})|}{|\Gamma(N_i)|} $$
+$$ \mu_p(N_1, N_k) = \frac{1 + |\Gamma(N_i) \cap\Gamma(N_{i+1})|}{|\Gamma(N_i)|} $$
 
 where $\Gamma(N) \cap\Gamma(M)$ stands for common neighbors of node `N` and `M` i.e. the intersection of the neighbors of `N` and `M`.
 
