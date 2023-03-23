@@ -9,9 +9,9 @@ It is a project work to implement the algorithm for the purpose of replication o
 ## Introduction
 > Recognizing groups that possess similar features in a network is termed Community detection and such groups can be called communities. If an individual belongs to one and only one community, then we can say the communities do not overlap. In graph networks, nodes can be grouped according to the common features they share and a node belonging to one community could have a feature that can make it belong to another community. In that case, communities detected in the network would overlap i.e. a node may belong to more than one community. In the paper under evaluation, the focus is on non-overlapping communities.
 
-## CDFR Methodology
-The `Nearest node with Greater Centrality (NGC)` is used to determine which community any node in the graph would belong to. The NGC of each node denoted as `NGC(V)`, where `V` is a node in the graph, is determined and the `fuzzy relation`, `R(V, NGC(V))`, considered the dependency of `V` on `NGC(V)`, is computed. The degree centrality of a node (`deg(V)`) was considered too rough for the CDFR algorithm by the authors so they used the term `centrality` as specified ahead.
-Since the CDFR algorithm is based on these two concepts; `NGC(V)` and `R(V, NGC(V))`, I will defined the parameters required for the computation of each:
+## CDFR Approach
+The `Nearest node with Greater Centrality (NGC)` determines which community any node in the graph would belong to. The NGC of each node denoted as `NGC(V)`, where `V` is a node in the graph, is determined and the `fuzzy relation`, `R(V, NGC(V))`, considered the dependency of `V` on `NGC(V)`, is computed. The degree centrality of a node (`deg(V)`) was considered too rough for the CDFR algorithm by the authors, so they used the term `centrality` as given in the equation below.
+Since the CDFR algorithm is based on these two concepts; `NGC(V)` and `R(V, NGC(V))`, I give below the definitions of the parameters required for the computation of each:
 
 $$ centrality(V) = deg(V) + \sum_{U\epsilon{\Gamma(V)}}\left(deg(U) + \sum_{W\epsilon{\Gamma(U)}}deg(W)\right)$$
 
