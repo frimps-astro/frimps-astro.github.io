@@ -17,6 +17,7 @@ Link to [Community Detection](https://github.com/frimps-astro/frimps-astro.githu
 
 
 ## Community Graph Results of experiments on various datasets using the CDFR unrefined algorithm
+
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<a href="https://frimps-astro.github.io/assets/images/communities/dolphins_network_delta_0.2.png"><img width="100%" alt="Dolphins Network: 2 Communities, Delta=0.2" src="https://frimps-astro.github.io/assets/images/communities/dolphins_network_delta_0.2.png"></a>  Dolphins Network: 2 Communities, Delta=0.2 | <a href="https://frimps-astro.github.io/assets/images/communities/karate_club_delta_0.4.png"><img width="100%" alt="Karate Club: 2 Communities, Delta=0.4" src="https://frimps-astro.github.io/assets/images/communities/karate_club_delta_0.4.png"></a>  Karate Club: 2 Communities, Delta=0.4 |<a href="https://frimps-astro.github.io/assets/images/communities/us_politics_books_delta_0.27.png"><img width="100%" alt="US Politics Books: 4 Communities, Delta=0.27" src="https://frimps-astro.github.io/assets/images/communities/us_politics_books_delta_0.27.png"></a>  US Politics Books: 4 Communities, Delta=0.27 |
