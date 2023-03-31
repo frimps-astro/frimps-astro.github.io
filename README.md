@@ -15,9 +15,12 @@ Since the CDFR algorithm is based on these two concepts; `NGC(V)` and `R(V, NGC(
 
 $$ centrality(V) = deg(V) + \sum_{U\epsilon{\Gamma(V)}}\left(deg(U) + \sum_{W\epsilon{\Gamma(U)}}deg(W)\right)$$
 
-`centrality(V)` here stands for the influence of the node V in the network and it was considered for the purpose of its simplicity and how well it aids in ranking the nodes. $\Gamma(n)$ represents the direct neighbors of node n and `deg(n)` represents the degree of node n. 
+`centrality(V)` here stands for the influence of the node V in the network and it was considered for the purpose of its simplicity and how well it aids in ranking the nodes. $\Gamma(n)$ represents the direct neighbors of node n and `deg(n)` represents the degree of node n. It considers a 2-hop neighbor nodes degree centralities.
 
-The function `centralityOfNodes(G)` and `neighborNodesDegree(G, U)` computes `centrality(V)` using the formula above. Below is the code extra. The input parameters: a graph `G` and a neighbor node `U` and returns a list of each node and its centrality value. 
+The function `centralityOfNodes(G)` and `neighborNodesDegree(G, U)` computes `centrality(V)` using the formula above. Below is the code extract. The input parameters: a graph `G` and a neighbor node `U` and returns a list of each node and its centrality value. 
+
+`baselineDegreeCentrality(G)` also accepts a graph `G` and return a dictionary of all nodes and their degree centralities (without considering neighbor nodes centralities) in the graph.
+
 ```python
 1   def neighborNodesDegree(G, U):
 2      degU = G.degree(U) #degree of U
@@ -41,6 +44,16 @@ The function `centralityOfNodes(G)` and `neighborNodesDegree(G, U)` computes `ce
 20          centralities[V] = degV
 21
 22      return centralities
+23
+24  def baselineDegreeCentrality(G):
+25    baseline_centralities = dict()
+26
+27    #find the degree centralities of all nodes
+28    for V in G.nodes():
+29      #save centrality of each V
+30      baseline_centralities[V] = G.degree(V)
+31
+32    return baseline_centralities
 
 ```
 `fuzzyPath`: This is a term I have come up for an important parameter required for finding the fuzzy relation. The fuzzy relation is defined as:
