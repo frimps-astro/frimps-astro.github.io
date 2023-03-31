@@ -217,7 +217,7 @@ The results of my experiment are saved to the directory `results/` in the reposi
 Visit <a href="https://frimps-astro.github.io/community-detection" target="_blank">Community Detection</a> to see a gallery of a few of the graph results from my experiments.
 
 ### Code Demo
-<a href="https://drive.google.com/file/d/1AbXq4YN6ZroMsc9NopIBsVwUsPGWYD0n/view?usp=share_link" title="Link Title"><img src="" alt="CDFR CODE DEMO" /></a>
+<a href="https://vimeo.com/813632413" title="Link Title"><img src="https://vimeo.com/813632413" alt="CDFR CODE DEMO" /></a>
 
 ## Course Information
 ```
